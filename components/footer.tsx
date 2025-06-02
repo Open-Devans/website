@@ -87,16 +87,6 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href={siteConfig.links.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground text-sm hover:text-primary transition-colors"
-                >
-                  Twitter
-                </Link>
-              </li>
-              <li>
-                <Link
                   href={siteConfig.links.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
