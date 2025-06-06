@@ -28,7 +28,9 @@ export function Navbar() {
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300",
-        isScrolled ? "bg-background/80 backdrop-blur-md shadow-sm" : "bg-transparent"
+        isScrolled
+          ? "bg-background/80 backdrop-blur-md shadow-sm"
+          : "bg-transparent"
       )}
     >
       <div className="container flex h-16 items-center justify-between py-4">
@@ -71,19 +73,19 @@ export function Navbar() {
             aria-label="Toggle menu"
           >
             <div className="flex flex-col space-y-1.5 w-5">
-              <div 
+              <div
                 className={cn(
                   "h-0.5 bg-foreground transition-all duration-300",
                   isMenuOpen ? "w-5 translate-y-2 rotate-45" : "w-5"
                 )}
               />
-              <div 
+              <div
                 className={cn(
                   "h-0.5 bg-foreground transition-all duration-300",
                   isMenuOpen ? "opacity-0" : "opacity-100 w-3.5"
                 )}
               />
-              <div 
+              <div
                 className={cn(
                   "h-0.5 bg-foreground transition-all duration-300",
                   isMenuOpen ? "w-5 -translate-y-2 -rotate-45" : "w-4"
@@ -95,10 +97,12 @@ export function Navbar() {
       </div>
 
       {/* Mobile menu */}
-      <div 
+      <div
         className={cn(
           "md:hidden fixed inset-x-0 top-16 bg-background/95 backdrop-blur-sm transition-all duration-300 ease-in-out border-b",
-          isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-8 pointer-events-none"
+          isMenuOpen
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 -translate-y-8 pointer-events-none"
         )}
       >
         <div className="container py-4">
@@ -118,7 +122,9 @@ export function Navbar() {
                 {item.title}
               </Link>
             ))}
-            <Button className="mt-2" onClick={() => setIsMenuOpen(false)}>Get in Touch</Button>
+            <Button className="mt-2" onClick={() => setIsMenuOpen(false)}>
+              Get in Touch
+            </Button>
           </nav>
         </div>
       </div>

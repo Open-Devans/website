@@ -1,3 +1,8 @@
+import profilePicture1 from "@/assets/profile_pictutes/cedrickah.png";
+import workImage1 from "@/assets/work_images/pap.jpg";
+import workImage2 from "@/assets/work_images/kp.png";
+import workImage3 from "@/assets/work_images/postdroid.png";
+
 export const siteConfig = {
   name: "Open Devans",
   description:
@@ -92,54 +97,43 @@ export const services = [
 
 export const projects = [
   {
-    title: "E-commerce Platform",
-    description:
-      "A modern e-commerce solution with inventory management and payment processing",
-    image:
-      "https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["Next.js", "TypeScript", "Stripe", "Tailwind CSS"],
-    category: "Web Development",
+    title: "Pro Annonce+",
+    description: "A modern marketplace solution",
+    image: workImage1,
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Google Maps API"],
+    category: "Mobile/Web Development",
+    link: "https://pro-annonce.com",
   },
   {
-    title: "Health & Fitness App",
-    description:
-      "Mobile application for tracking workouts, nutrition, and progress",
-    image:
-      "https://images.pexels.com/photos/3927392/pexels-photo-3927392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["React Native", "Expo", "Firebase", "Redux"],
+    title: "KryptaPay P2P",
+    description: "Mobile application for P2P crypto exchange",
+    image: workImage2,
+    technologies: ["React Native", "Expo", "Redux", "MongoDB", "Node.js"],
+    category: "Mobile/Web Development",
+    link: "https://krypta-pay.com",
+  },
+  {
+    title: "Postdroid",
+    description: "Open source API tester app",
+    image: workImage3,
+    technologies: ["React Native", "Expo", "Fetch"],
     category: "Mobile Development",
-  },
-  {
-    title: "Real Estate Platform",
-    description: "Web platform connecting property buyers, sellers, and agents",
-    image:
-      "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["React", "Node.js", "MongoDB", "Google Maps API"],
-    category: "Web Development",
-  },
-  {
-    title: "Educational Dashboard",
-    description:
-      "Interactive learning platform with progress tracking and analytics",
-    image:
-      "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["Next.js", "TypeScript", "Chart.js", "PostgreSQL"],
-    category: "Web Development",
+    link: "https://github.com/open-devans/postdroid",
   },
 ];
 
 export const teamMembers = [
   {
-    name: "Alex Chen",
+    name: "Cedrick AHOUANGANSI",
     role: "Founder & Lead Developer",
-    bio: "Full-stack developer with 8+ years of experience building web and mobile applications. Specialized in React ecosystem and serverless architectures.",
-    image:
-      "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    skills: ["React", "Next.js", "TypeScript", "Node.js"],
+    bio: "Full-stack engineer with 6+ years of experience building web and mobile applications. Specialized in backend development.",
+    image: profilePicture1,
+    skills: ["TypeScript", "Node.js", "Golang", "React", "React Native"],
     links: {
-      github: "https://github.com/alexchen",
-      linkedin: "https://linkedin.com/in/alexchen",
-      twitter: "https://twitter.com/alexchen",
+      github: "https://github.com/cedrickah",
+      linkedin:
+        "https://www.linkedin.com/in/cedrick-ahouangansi-0049901b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitter: "https://x.com/cedrickentrep?s=09",
     },
   },
   {
@@ -153,32 +147,6 @@ export const teamMembers = [
       github: "https://github.com/sarahjohnson",
       linkedin: "https://linkedin.com/in/sarahjohnson",
       twitter: "https://twitter.com/sarahjohnson",
-    },
-  },
-  {
-    name: "Miguel Rodriguez",
-    role: "UI/UX Designer",
-    bio: "Designer with an eye for detail and a passion for creating intuitive user experiences. Combines aesthetic sensibility with technical understanding.",
-    image:
-      "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    skills: ["UI Design", "UX Research", "Figma", "Design Systems"],
-    links: {
-      github: "https://github.com/miguelrodriguez",
-      linkedin: "https://linkedin.com/in/miguelrodriguez",
-      twitter: "https://twitter.com/miguelrodriguez",
-    },
-  },
-  {
-    name: "Priya Patel",
-    role: "Backend Developer",
-    bio: "Specialized in building robust and scalable backend systems. Experienced in cloud infrastructure and database optimization.",
-    image:
-      "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    skills: ["Node.js", "GraphQL", "AWS", "MongoDB"],
-    links: {
-      github: "https://github.com/priyapatel",
-      linkedin: "https://linkedin.com/in/priyapatel",
-      twitter: "https://twitter.com/priyapatel",
     },
   },
 ];
