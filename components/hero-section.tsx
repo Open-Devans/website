@@ -28,7 +28,7 @@ export function HeroSection() {
     <section className="relative h-screen flex items-center">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-background" />
-      
+
       <div className="container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -51,8 +51,9 @@ export function HeroSection() {
               We build exceptional digital experiences
             </h1>
             <p className="text-lg text-muted-foreground max-w-prose">
-              A collective of passionate software engineers specialized in TypeScript, React, and 
-              Next.js, crafting beautiful and performant web and mobile applications.
+              A collective of passionate software engineers specialized in
+              TypeScript, React Native, Expo, React, Next.js and Node.js
+              crafting beautiful and performant web and mobile applications.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" asChild>
@@ -77,7 +78,7 @@ export function HeroSection() {
             <div className="relative h-[500px] w-full">
               <div className="absolute top-0 -left-4 h-72 w-72 bg-primary/10 rounded-full blur-3xl" />
               <div className="absolute bottom-0 right-0 h-80 w-80 bg-primary/10 rounded-full blur-3xl" />
-              
+
               {/* Code block display */}
               <div className="absolute top-10 right-10 bg-card rounded-lg shadow-xl border p-6 transform rotate-2 w-[300px]">
                 <div className="flex items-center mb-4">
@@ -106,7 +107,7 @@ export function App() {
                   </code>
                 </pre>
               </div>
-              
+
               <div className="absolute bottom-20 -left-5 bg-card rounded-lg shadow-xl border p-6 transform -rotate-3 w-[280px]">
                 <div className="space-y-2">
                   <div className="h-2 w-20 bg-primary/20 rounded-full" />
@@ -122,9 +123,9 @@ export function App() {
 
       {/* Scroll down indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-        <Button 
-          variant="ghost" 
-          size="icon" 
+        <Button
+          variant="ghost"
+          size="icon"
           onClick={scrollToNextSection}
           className="animate-bounce"
         >
