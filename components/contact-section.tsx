@@ -162,7 +162,7 @@ export function ContactSection() {
                   <Mail className="h-6 w-6 text-primary mt-0.5" />
                   <div>
                     <h3 className="font-medium">Email</h3>
-                    <p className="text-muted-foreground">info@opendevans.com</p>
+                    <p className="text-muted-foreground">opendevans@gmail.com</p>
                   </div>
                 </div>
               </Card>
@@ -172,7 +172,7 @@ export function ContactSection() {
                   <Phone className="h-6 w-6 text-primary mt-0.5" />
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+2290162926031</p>
                   </div>
                 </div>
               </Card>
@@ -183,9 +183,7 @@ export function ContactSection() {
                   <div>
                     <h3 className="font-medium">Location</h3>
                     <p className="text-muted-foreground">
-                      San Francisco, CA
-                      <br />
-                      United States
+                      Remote
                     </p>
                   </div>
                 </div>
