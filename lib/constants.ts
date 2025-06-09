@@ -1,4 +1,5 @@
 import profilePicture1 from "@/assets/profile_pictutes/cedrickah.png";
+import profilePicture2 from "@/assets/profile_pictutes/shedrach.jpg";
 import workImage1 from "@/assets/work_images/pap.jpg";
 import workImage2 from "@/assets/work_images/kp.png";
 import workImage3 from "@/assets/work_images/postdroid.png";
@@ -137,16 +138,16 @@ export const teamMembers = [
     },
   },
   {
-    name: "Sarah Johnson",
+    name: "Shedrach Jonah",
     role: "Mobile Developer",
     bio: "Passionate about creating seamless mobile experiences. Expert in React Native and Expo with a background in native iOS and Android development.",
-    image:
-      "https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    skills: ["React Native", "Expo", "JavaScript", "Swift"],
+    image: profilePicture2,
+    skills: ["React Native", "Expo", "JavaScript", "TypeScript", "React"],
     links: {
-      github: "https://github.com/sarahjohnson",
-      linkedin: "https://linkedin.com/in/sarahjohnson",
-      twitter: "https://twitter.com/sarahjohnson",
+      github: "https://github.com/ShedrachJonah11",
+      linkedin: "https://www.linkedin.com/in/shedrach-jonah-4894a722a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      twitter: "https://x.com/shedyyyyyy_?s=21&t=DXoMQjeLYxVaXBq2dYtRVA",
     },
   },
 ];
+
